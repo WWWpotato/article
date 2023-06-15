@@ -26,9 +26,9 @@ const routes = [
         name: 'adCate',
         component: () => import('../views/static/adCate.vue')// 懒加载
     },
-    {
-        path: '/memorabilia', name: 'memorabilia', component: () => import('../views/admin/memorabilia.vue') //懒加载 
-    },
+    // {
+    //     path: '/memorabilia', name: 'memorabilia', component: () => import('../views/admin/memorabilia.vue') //懒加载 
+    // },
     {
         path: '/classroom', name: 'classroom', component: () => import('../views/static/classroom.vue') //懒加载 
     },
@@ -59,9 +59,9 @@ const routes = [
         path: '/Newaricle2', name: 'Newaricle2', component: () => import('../views/static/Newaricle2.vue') //懒加载 
     },
 
-    {
-        path: '/backend', name: 'backend', component: () => import('../views/static/backend.vue') //懒加载 
-    },
+    // {
+    //     path: '/backend', name: 'backend', component: () => import('../views/static/backend.vue') //懒加载 
+    // },
     {
         path: '/student', name: 'student', component: () => import('../views/static/student.vue') //懒加载 
     },
